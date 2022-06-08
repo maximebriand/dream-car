@@ -15,7 +15,13 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@dream-car/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@dream-car/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@dream-car/atomic-design/atoms": [
+        "libs/atomic-design/atoms/src/index.ts"
+      ],
+      "@dream-car/atomic-design/molecules": [
+        "libs/atomic-design/molecules/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]

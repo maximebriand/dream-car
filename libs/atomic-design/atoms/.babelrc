@@ -1,0 +1,7 @@
+{
+  "presets": [
+    ["@nrwl/web/babel", { "useBuiltIns": "usage" }],
+    "@babel/preset-env",
+    "@babel/preset-typescript"
+  ]
+}

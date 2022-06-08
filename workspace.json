@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "dream-car": "apps/dream-car",
+    "atomic-design-atoms": "libs/atomic-design/atoms"
+  }
+}
