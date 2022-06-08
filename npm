@@ -1,0 +1,59 @@
+
+> nx run dream-car:storybook
+
+assets by chunk 5.09 MiB (id hint: vendors)
+  assets by status 4.68 MiB [big]
+    asset vendors-node_modules_storybook_addon-actions_manager_js-node_modules_storybook_addon-backgrou-45da3d.manager.bundle.js 3.6 MiB [emitted] [big] (id hint: vendors)
+    asset vendors-node_modules_storybook_components_dist_esm_formatter-9bb0ae57_js.manager.bundle.js 813 KiB [emitted] [big] (id hint: vendors)
+    asset vendors-node_modules_storybook_components_dist_esm_OverlayScrollbars-9b821cbe_js.manager.bundle.js 294 KiB [emitted] [big] (id hint: vendors)
+  asset vendors-node_modules_storybook_components_dist_esm_syntaxhighlighter-b09267a2_js.manager.bundle.js 205 KiB [emitted] (id hint: vendors)
+  asset vendors-node_modules_storybook_components_dist_esm_WithTooltip-2fc4c925_js.manager.bundle.js 122 KiB [emitted] (id hint: vendors)
+  asset vendors-node_modules_storybook_components_dist_esm_Color-01c31ae2_js.manager.bundle.js 82.5 KiB [emitted] (id hint: vendors)
+  asset vendors-node_modules_storybook_components_dist_esm_GlobalScrollAreaStyles-8793ce4a_js.manager.bundle.js 15.5 KiB [emitted] (id hint: vendors)
+asset runtime~main.manager.bundle.js 14.2 KiB [emitted] (name: runtime~main)
+asset index.html 2.79 KiB [emitted]
+asset main.manager.bundle.js 1.37 KiB [emitted] (name: main)
+asset node_modules_unfetch_dist_unfetch_js.manager.bundle.js 1.27 KiB [emitted]
+Entrypoint main [big] 3.61 MiB = runtime~main.manager.bundle.js 14.2 KiB vendors-node_modules_storybook_addon-actions_manager_js-node_modules_storybook_addon-backgrou-45da3d.manager.bundle.js 3.6 MiB main.manager.bundle.js 1.37 KiB
+orphan modules 1.03 MiB [orphan] 117 modules
+runtime modules 8.71 KiB 15 modules
+javascript modules 4.46 MiB 904 modules
+json modules 1.52 KiB
+  ./node_modules/character-entities-legacy/index.json 1.24 KiB [built] [code generated]
+  ./node_modules/character-reference-invalid/index.json 289 bytes [built] [code generated]
+
+WARNING in DefinePlugin
+Conflicting values for 'process.env.NODE_ENV'
+
+1 WARNING in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details)
+
+1 warning has detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+manager (webpack 5.73.0) compiled with 2 warnings in 14693 ms
+webpack built preview d21f4908e6a5c051c528 in 15225ms
+ModuleNotFoundError: Module not found: Error: Can't resolve './apps/dream-car/libs' in '/Users/maximebriand/Documents/projets/dream-car/dream-car'
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/webpack/lib/Compilation.js:2016:28
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/webpack/lib/ContextModuleFactory.js:214:15
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/neo-async/async.js:2830:7
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/neo-async/async.js:6877:13
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/webpack/lib/ContextModuleFactory.js:184:26
+    at finishWithoutResolve (/Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/enhanced-resolve/lib/Resolver.js:312:11)
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/enhanced-resolve/lib/Resolver.js:386:15
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/enhanced-resolve/lib/Resolver.js:435:5
+    at eval (eval at create (/Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/enhanced-resolve/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)
+    at /Users/maximebriand/Documents/projets/dream-car/dream-car/node_modules/webpack/lib/cache/ResolverCachePlugin.js:257:15
+
+
+ 
+
+ >  NX   Running target "dream-car:storybook" failed
+
+   Failed tasks:
+   
+   - dream-car:storybook
+   
+   Hint: run the command with --verbose for more details.
+
+   See Nx Cloud run details at https://nx.app/runs/KY3VfC3faAq
+

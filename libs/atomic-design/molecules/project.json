@@ -1,0 +1,25 @@
+{
+  "projectType": "library",
+  "sourceRoot": "libs/atomic-design/molecules/src",
+  "prefix": "dream-car",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/atomic-design/molecules"],
+      "options": {
+        "jestConfig": "libs/atomic-design/molecules/jest.config.ts",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/atomic-design/molecules/**/*.ts",
+          "libs/atomic-design/molecules/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

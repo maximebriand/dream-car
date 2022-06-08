@@ -1,17 +1,17 @@
 import { moduleMetadata, Story, Meta } from '@storybook/angular';
-import {CardComponent} from "./card.component";
+import { AppComponent } from './app.component';
 
 export default {
-  title: 'CardComponent',
-  component: CardComponent,
+  title: 'AppComponent',
+  component: AppComponent,
   decorators: [
     moduleMetadata({
       imports: [],
     })
   ],
-} as Meta<CardComponent>;
+} as Meta<AppComponent>;
 
-const Template: Story<CardComponent> = (args: CardComponent) => ({
+const Template: Story<AppComponent> = (args: AppComponent) => ({
   props: args,
 });
 
@@ -19,4 +19,3 @@ const Template: Story<CardComponent> = (args: CardComponent) => ({
 export const Primary = Template.bind({});
 Primary.args = {
 }
-

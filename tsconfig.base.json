@@ -21,7 +21,8 @@
       ],
       "@dream-car/atomic-design/molecules": [
         "libs/atomic-design/molecules/src/index.ts"
-      ]
+      ],
+      "@dream-car/atoms": ["libs/atoms/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
