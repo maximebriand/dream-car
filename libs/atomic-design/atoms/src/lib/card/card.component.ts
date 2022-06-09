@@ -1,7 +1,7 @@
 import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
-  selector: 'dream-car-card',
+  selector: 'dc-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
   standalone: true
@@ -9,6 +9,9 @@ import {Component, Input, OnInit} from '@angular/core';
 export class CardComponent implements OnInit {
   @Input()
   backgroundColor!: string;
+
+  @Input()
+  color = '#fff';
 
   constructor() {
     console.log('coucou')
@@ -20,8 +23,3 @@ export class CardComponent implements OnInit {
   }
 }
 
-// NgModule({
-//   declarations: [CardComponent],
-//   // imports: [IonicModule],
-//   exports: [CardComponent]
-// })

@@ -12,10 +12,14 @@ export default {
   ],
   argTypes: {
     backgroundColor: {control: 'color'},
+    color: {control: 'color'},
   }
 } as Meta<CardComponent>;
 
 const Template: Story<CardComponent> = (args: CardComponent) => ({
+  template: `
+    <dc-card [backgroundColor]="backgroundColor" [color]="color"></dc-card>
+  `,
   props: args,
 });
 

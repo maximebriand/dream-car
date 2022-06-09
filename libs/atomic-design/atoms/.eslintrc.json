@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "dream-car",
+            "prefix": "dc",
             "style": "kebab-case"
           }
         ]
