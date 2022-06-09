@@ -1,11 +1,13 @@
 {
   "projectType": "library",
   "sourceRoot": "libs/atomic-design/molecules/src",
-  "prefix": "dream-car",
+  "prefix": "dc",
   "targets": {
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/atomic-design/molecules"],
+      "outputs": [
+        "coverage/libs/atomic-design/molecules"
+      ],
       "options": {
         "jestConfig": "libs/atomic-design/molecules/jest.config.ts",
         "passWithNoTests": true

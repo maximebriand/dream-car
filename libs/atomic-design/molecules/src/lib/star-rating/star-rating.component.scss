@@ -1,0 +1,14 @@
+:host {
+  color: var(--primary-black);
+  display: flex;
+  align-items: center;
+
+  dc-material-icon {
+    margin-right: var(--margin-s);
+  }
+
+  span {
+    font-size: 1.4rem;
+  }
+}
+

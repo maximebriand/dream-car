@@ -1,1 +1,1 @@
-export * from './lib/atomic-design-molecules.module';
+export * from './lib/car-card/car-card.component';
