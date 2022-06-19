@@ -1,21 +1,21 @@
 import {IonicModule} from '@ionic/angular';
 import {Meta, moduleMetadata, Story} from '@storybook/angular';
-import {CarCardComponent} from "@dream-car/atomic-design/molecules";
+import {CarCardDetailedComponent} from "./car-card-detailed.component";
 
 export default {
-  title: 'molecules/CarCardComponent',
+  title: 'organisms/car-cards/detailed',
   decorators: [
     moduleMetadata({
-      imports: [IonicModule.forRoot(), CarCardComponent],
+      imports: [IonicModule.forRoot(), CarCardDetailedComponent],
     })
   ],
   argTypes: {
     backgroundColor: {control: 'color'},
     color: {control: 'color'},
   }
-} as Meta<CarCardComponent>;
+} as Meta<CarCardDetailedComponent>;
 
-const Template: Story<CarCardComponent> = (args: CarCardComponent) => ({
+const Template: Story<CarCardDetailedComponent> = (args: CarCardDetailedComponent) => ({
   template: `
     <dc-car-card [backgroundColor]="backgroundColor" [color]="color">
     </dc-car-card>

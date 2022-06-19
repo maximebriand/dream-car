@@ -1,1 +1,1 @@
-export * from './lib/car-card/car-card.component';
+export * from './lib/star-rating/star-rating.component';

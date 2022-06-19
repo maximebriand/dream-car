@@ -22,6 +22,9 @@
       "@dream-car/atomic-design/molecules": [
         "libs/atomic-design/molecules/src/index.ts"
       ],
+      "@dream-car/atomic-design/organisms": [
+        "libs/atomic-design/organisms/src/index.ts"
+      ],
       "@dream-car/atoms": ["libs/atoms/src/index.ts"]
     }
   },

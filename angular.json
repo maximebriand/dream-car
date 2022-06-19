@@ -6,6 +6,7 @@
     "api-interfaces": "libs/api-interfaces",
     "atomic-design-atoms": "libs/atomic-design/atoms",
     "atomic-design-molecules": "libs/atomic-design/molecules",
+    "atomic-design-organisms": "libs/atomic-design/organisms",
     "dream-car": "apps/dream-car",
     "dream-car-e2e": "apps/dream-car-e2e"
   }

@@ -1,0 +1,40 @@
+:host {
+  ion-card-content {
+
+    &.card-content-md {
+      h3 {
+        color: var(--primary-white);
+        mix-blend-mode: difference;
+        font-weight: 700;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  ion-card-footer {
+    border-top: 1px solid rgb(255 255 255 / 48%);
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 2rem 0;
+    color: var(--primary-white);
+    mix-blend-mode: difference;
+
+    & > * {
+      white-space: nowrap;
+    }
+
+    ul {
+      display: flex;
+      padding: 0;
+      width: 100%;
+
+      li {
+        list-style: none;
+        margin-right: 2rem;
+      }
+    }
+  }
+}
